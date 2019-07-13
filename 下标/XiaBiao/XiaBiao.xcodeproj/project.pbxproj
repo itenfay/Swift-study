@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96DCEE621F98A5FD00F943CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCEE611F98A5FD00F943CA /* AppDelegate.swift */; };
+		96DCEE641F98A5FD00F943CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCEE631F98A5FD00F943CA /* ViewController.swift */; };
+		96DCEE671F98A5FD00F943CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DCEE651F98A5FD00F943CA /* Main.storyboard */; };
+		96DCEE691F98A5FD00F943CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DCEE681F98A5FD00F943CA /* Assets.xcassets */; };
+		96DCEE6C1F98A5FD00F943CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DCEE6A1F98A5FD00F943CA /* LaunchScreen.storyboard */; };
+		96DCEE741F98A60F00F943CA /* XBUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCEE731F98A60F00F943CA /* XBUsage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96DCEE5E1F98A5FD00F943CA /* XiaBiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaBiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DCEE611F98A5FD00F943CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96DCEE631F98A5FD00F943CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96DCEE661F98A5FD00F943CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96DCEE681F98A5FD00F943CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96DCEE6B1F98A5FD00F943CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96DCEE6D1F98A5FD00F943CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96DCEE731F98A60F00F943CA /* XBUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBUsage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96DCEE5B1F98A5FD00F943CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96DCEE551F98A5FD00F943CA = {
+			isa = PBXGroup;
+			children = (
+				96DCEE601F98A5FD00F943CA /* XiaBiao */,
+				96DCEE5F1F98A5FD00F943CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96DCEE5F1F98A5FD00F943CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96DCEE5E1F98A5FD00F943CA /* XiaBiao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96DCEE601F98A5FD00F943CA /* XiaBiao */ = {
+			isa = PBXGroup;
+			children = (
+				96DCEE611F98A5FD00F943CA /* AppDelegate.swift */,
+				96DCEE631F98A5FD00F943CA /* ViewController.swift */,
+				96DCEE651F98A5FD00F943CA /* Main.storyboard */,
+				96DCEE681F98A5FD00F943CA /* Assets.xcassets */,
+				96DCEE6A1F98A5FD00F943CA /* LaunchScreen.storyboard */,
+				96DCEE6D1F98A5FD00F943CA /* Info.plist */,
+				96DCEE731F98A60F00F943CA /* XBUsage.swift */,
+			);
+			path = XiaBiao;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96DCEE5D1F98A5FD00F943CA /* XiaBiao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96DCEE701F98A5FD00F943CA /* Build configuration list for PBXNativeTarget "XiaBiao" */;
+			buildPhases = (
+				96DCEE5A1F98A5FD00F943CA /* Sources */,
+				96DCEE5B1F98A5FD00F943CA /* Frameworks */,
+				96DCEE5C1F98A5FD00F943CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XiaBiao;
+			productName = XiaBiao;
+			productReference = 96DCEE5E1F98A5FD00F943CA /* XiaBiao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96DCEE561F98A5FD00F943CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Eastze;
+				TargetAttributes = {
+					96DCEE5D1F98A5FD00F943CA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 96DCEE591F98A5FD00F943CA /* Build configuration list for PBXProject "XiaBiao" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96DCEE551F98A5FD00F943CA;
+			productRefGroup = 96DCEE5F1F98A5FD00F943CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96DCEE5D1F98A5FD00F943CA /* XiaBiao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96DCEE5C1F98A5FD00F943CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DCEE6C1F98A5FD00F943CA /* LaunchScreen.storyboard in Resources */,
+				96DCEE691F98A5FD00F943CA /* Assets.xcassets in Resources */,
+				96DCEE671F98A5FD00F943CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96DCEE5A1F98A5FD00F943CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DCEE641F98A5FD00F943CA /* ViewController.swift in Sources */,
+				96DCEE741F98A60F00F943CA /* XBUsage.swift in Sources */,
+				96DCEE621F98A5FD00F943CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96DCEE651F98A5FD00F943CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96DCEE661F98A5FD00F943CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96DCEE6A1F98A5FD00F943CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96DCEE6B1F98A5FD00F943CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96DCEE6E1F98A5FD00F943CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96DCEE6F1F98A5FD00F943CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96DCEE711F98A5FD00F943CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaBiao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez.XiaBiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96DCEE721F98A5FD00F943CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaBiao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez.XiaBiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96DCEE591F98A5FD00F943CA /* Build configuration list for PBXProject "XiaBiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96DCEE6E1F98A5FD00F943CA /* Debug */,
+				96DCEE6F1F98A5FD00F943CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96DCEE701F98A5FD00F943CA /* Build configuration list for PBXNativeTarget "XiaBiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96DCEE711F98A5FD00F943CA /* Debug */,
+				96DCEE721F98A5FD00F943CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96DCEE561F98A5FD00F943CA /* Project object */;
+}
