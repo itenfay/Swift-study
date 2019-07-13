@@ -2,8 +2,8 @@
 //  CollectionTypes.swift
 //  Collection Types
 //
-//  Created by Dyfei on 2017/1/20.
-//  Copyright © 2017年 dyf. All rights reserved.
+//  Created by dyf on 2017/1/20.
+//  Copyright © 2017 dyf. All rights reserved.
 //
 
 import UIKit

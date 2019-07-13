@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
 //
-//  Created by Dyfei on 2016/10/17.
-//  Copyright © 2016年 dyf. All rights reserved.
+//  Created by dyf on 2016/10/17.
+//  Copyright © 2016 yf. All rights reserved.
 //
 
 import UIKit

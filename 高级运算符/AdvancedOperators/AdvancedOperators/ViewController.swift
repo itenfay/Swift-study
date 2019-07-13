@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  AdvancedOperators
 //
-//  Created by Dyfei on 2017/10/30.
-//  Copyright © 2017年 Eastze. All rights reserved.
+//  Created by dyf on 2017/10/30.
+//  Copyright © 2017 dyf. All rights reserved.
 //
 
 import UIKit

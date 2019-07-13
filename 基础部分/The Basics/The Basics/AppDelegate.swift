@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  The Basics
 //
-//  Created by Dyfei on 2016/10/17.
-//  Copyright © 2016年 dyf. All rights reserved.
+//  Created by dyf on 2016/10/17.
+//  Copyright © 2016 dyf. All rights reserved.
 //
 
 import UIKit
